@@ -1,17 +1,18 @@
 {
-    "required": true,
-    "minVersion": "0.8",
-    "package": "jamdoggie.musicmod.mixins",
-    "compatibilityLevel": "JAVA_8",
-    "mixins": [
-    ],
-    "client": [
-      "GuiMainMenuMixin",
-      "SoundManagerMixin",
-      "MinecraftMixin",
-      "EntityPlayerSPMixin"
-    ],
-    "injectors": {
-        "defaultRequire": 1
+  "required": true,
+  "minVersion": "0.8",
+  "package": "jamdoggie.musicmod.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MinecraftMixin",
+    "PlayerLocalMixin",
+    "ScreenMainMenuMixin",
+    "SoundEngineMixin",
+    "SoundRepositoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
   }
 }

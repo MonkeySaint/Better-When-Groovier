@@ -2,17 +2,21 @@ package jamdoggie.musicmod;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.sound.NamedSoundRepository;
+import net.minecraft.client.sound.SoundRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import turniplabs.halplibe.util.GameStartEntrypoint;
 import turniplabs.halplibe.util.RecipeEntrypoint;
+
+import java.io.File;
 
 
 public class MusicMod implements ModInitializer, GameStartEntrypoint, RecipeEntrypoint, ClientModInitializer
 {
     public static final String MOD_ID = "musicmod";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-	public static MusicManager musicManager;
 
     @Override
     public void onInitialize() {
@@ -22,7 +26,7 @@ public class MusicMod implements ModInitializer, GameStartEntrypoint, RecipeEntr
 
 	@Override
 	public void beforeGameStart() {
-
+		SoundRepository.registerNamespace(MOD_ID);
 	}
 
 	@Override
@@ -36,9 +40,12 @@ public class MusicMod implements ModInitializer, GameStartEntrypoint, RecipeEntr
 	}
 
 	@Override
-	public void onInitializeClient()
-	{
-		musicManager = new MusicManager();
-		musicManager.init();
+	public void initNamespaces() {
+
+	}
+
+	@Override
+	public void onInitializeClient() {
+
 	}
 }

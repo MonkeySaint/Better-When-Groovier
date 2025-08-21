@@ -2,9 +2,9 @@ package jamdoggie.musicmod.mixins;
 
 import jamdoggie.musicmod.mixininterface.ISoundManager;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.sound.SoundManager;
-import net.minecraft.core.entity.player.EntityPlayer;
-import net.minecraft.core.world.World;
+import net.minecraft.client.sound.SoundEngine;
+import net.minecraft.client.world.WorldClient;
+import net.minecraft.core.entity.player.Player;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
@@ -12,21 +12,13 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(value = Minecraft.class, remap = false)
-public class MinecraftMixin
-{
+public class MinecraftMixin {
 	@Shadow
-	public SoundManager sndManager;
+	public SoundEngine sndManager;
 
-	/*@Inject(method = "startWorld", at = @At("HEAD"))
-	private void startWorld(String worldDirName, String worldName, long seed, CallbackInfo ci)
-	{
-		((ISoundManager)sndManager).stopBgMusic();
-	}*/
-
-	@Inject(method = "changeWorld(Lnet/minecraft/core/world/World;Ljava/lang/String;Lnet/minecraft/core/entity/player/EntityPlayer;)V"
-		, at = @At("HEAD"))
-	private void changeWorld(World world, String loadingTitle, EntityPlayer player, CallbackInfo ci)
-	{
+	@Inject(method = "changeWorld(Lnet/minecraft/client/world/WorldClient;Ljava/lang/String;Lnet/minecraft/core/entity/player/Player;)V",
+		at = @At("HEAD"))
+	private void changeWorld(WorldClient world, String loadingTitle, Player player, CallbackInfo ci) {
 		((ISoundManager)sndManager).stopBgMusic();
 		((ISoundManager)sndManager).setTicksUntilMusic(600);
 	}

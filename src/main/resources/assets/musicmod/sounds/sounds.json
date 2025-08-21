@@ -1,0 +1,326 @@
+{
+  "music.alpha": {
+    "sounds": [
+      {
+        "name": "musicalpha/ex_beginning.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_cat.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_chris.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_clark.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_danny.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_death.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_dog.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_door.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_droopy_likes_ricochet.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_droopy_likes_your_face.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_dry_hands.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_equinoxe.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_excuse.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_haggstorm.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_key.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_living_mice.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_mice_on_venus.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_minecraft.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_moog_city.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_oxygene.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_subwoofer_lullaby.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_sweden.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_thirteen.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_wet_hands.ogg",
+        "stream": true
+      }
+    ]
+  },
+  "music.beta": {
+    "sounds": [
+      {
+        "name": "musicbeta/ex_alpha.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_aria_math.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_ballad_of_the_cats.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_beginning_2.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_biome_fest.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_blind_spots.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_blocks.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_chirp.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_concrete_halls.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_dead_voxel.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_dreiton.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_eleven.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_far.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_flake.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_floating_trees.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_haunt_muskie.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_intro.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_ki.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_kyoto.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_mall.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_mellohi.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_moog_city_2.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_mutation.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_stal.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_strad.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_taswell.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_the_end.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_wait.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_ward.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_warmth.ogg",
+        "stream": true
+      }
+    ]
+  },
+  "creative": {
+    "sounds": [
+      {
+        "name": "musicbeta/ex_aria_math.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_biome_fest.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_blind_spots.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_dreiton.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_haunt_muskie.ogg",
+        "stream": true
+      }
+    ]
+  },
+  "title": {
+    "sounds": [
+      {
+        "name": "musicbeta/ex_beginning_2.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_beginning.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_door.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_floating_trees.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_moog_city_2.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_mutation.ogg",
+        "stream": true
+      }
+    ]
+  },
+  "nether": {
+    "sounds": [
+      {
+        "name": "musicbeta/ex_concrete_halls.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_dead_voxel.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_warmth.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicalpha/ex_excuse.ogg",
+        "stream": true
+      }
+    ]
+  },
+  "fall": {
+    "sounds": [
+      {
+        "name": "musicbeta/ex_blind_spots.ogg",
+        "stream": true
+      }
+    ]
+  },
+  "winter": {
+    "sounds": [
+      {
+        "name": "musicbeta/ex_biome_fest.ogg",
+        "stream": true
+      },
+      {
+        "name": "musicbeta/ex_flake.ogg",
+        "stream": true
+      }
+    ]
+  },
+  "winter_night": {
+    "sounds": [
+      {
+        "name": "musicbeta/ex_kyoto.ogg",
+        "stream": true
+      }
+    ]
+  }
+}
