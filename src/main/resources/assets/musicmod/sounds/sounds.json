@@ -6,10 +6,6 @@
         "stream": true
       },
       {
-        "name": "musicalpha/ex_cat.ogg",
-        "stream": true
-      },
-      {
         "name": "musicalpha/ex_chris.ogg",
         "stream": true
       },
@@ -23,10 +19,6 @@
       },
       {
         "name": "musicalpha/ex_death.ogg",
-        "stream": true
-      },
-      {
-        "name": "musicalpha/ex_dog.ogg",
         "stream": true
       },
       {
@@ -47,10 +39,6 @@
       },
       {
         "name": "musicalpha/ex_equinoxe.ogg",
-        "stream": true
-      },
-      {
-        "name": "musicalpha/ex_excuse.ogg",
         "stream": true
       },
       {
@@ -90,10 +78,6 @@
         "stream": true
       },
       {
-        "name": "musicalpha/ex_thirteen.ogg",
-        "stream": true
-      },
-      {
         "name": "musicalpha/ex_wet_hands.ogg",
         "stream": true
       }
@@ -126,31 +110,11 @@
         "stream": true
       },
       {
-        "name": "musicbeta/ex_blocks.ogg",
-        "stream": true
-      },
-      {
-        "name": "musicbeta/ex_chirp.ogg",
-        "stream": true
-      },
-      {
-        "name": "musicbeta/ex_concrete_halls.ogg",
-        "stream": true
-      },
-      {
-        "name": "musicbeta/ex_dead_voxel.ogg",
-        "stream": true
-      },
-      {
         "name": "musicbeta/ex_dreiton.ogg",
         "stream": true
       },
       {
         "name": "musicbeta/ex_eleven.ogg",
-        "stream": true
-      },
-      {
-        "name": "musicbeta/ex_far.ogg",
         "stream": true
       },
       {
@@ -174,18 +138,6 @@
         "stream": true
       },
       {
-        "name": "musicbeta/ex_kyoto.ogg",
-        "stream": true
-      },
-      {
-        "name": "musicbeta/ex_mall.ogg",
-        "stream": true
-      },
-      {
-        "name": "musicbeta/ex_mellohi.ogg",
-        "stream": true
-      },
-      {
         "name": "musicbeta/ex_moog_city_2.ogg",
         "stream": true
       },
@@ -194,31 +146,11 @@
         "stream": true
       },
       {
-        "name": "musicbeta/ex_stal.ogg",
-        "stream": true
-      },
-      {
-        "name": "musicbeta/ex_strad.ogg",
-        "stream": true
-      },
-      {
         "name": "musicbeta/ex_taswell.ogg",
         "stream": true
       },
       {
         "name": "musicbeta/ex_the_end.ogg",
-        "stream": true
-      },
-      {
-        "name": "musicbeta/ex_wait.ogg",
-        "stream": true
-      },
-      {
-        "name": "musicbeta/ex_ward.ogg",
-        "stream": true
-      },
-      {
-        "name": "musicbeta/ex_warmth.ogg",
         "stream": true
       }
     ]
