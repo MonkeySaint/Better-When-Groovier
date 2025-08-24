@@ -32,6 +32,9 @@
 		],
 		"recipesReady": [
           "jamdoggie.musicmod.MusicMod"
+		],
+		"modmenu": [
+					"jamdoggie.musicmod.ModMenuImplementer"
 		]
 	},
   "mixins": [

@@ -155,6 +155,74 @@
       }
     ]
   },
+  "excursions": {
+    "sounds": [
+      {
+        "name": "excursions/ams.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/aviva.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/cold_summer.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/fake_triplets.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/home.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/kuabee.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/nest.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/thunderbird.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/atx.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/benton.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/excursions.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/figure_8.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/hope.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/leak.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/the_president_is_dead.ogg",
+        "stream": true
+      },
+      {
+        "name": "excursions/txl.ogg",
+        "stream": true
+      }
+    ]
+  },
   "creative": {
     "sounds": [
       {
