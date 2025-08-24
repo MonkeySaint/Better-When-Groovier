@@ -53,7 +53,6 @@ public abstract class SoundEngineMixin implements ISoundManager {
 
 	@Inject(method = "tick", at = @At("HEAD"), cancellable = true)
 	private void tick(CallbackInfo ci) {
-		ticksBeforeMusic = 0;
 		try {
 			lock.lock();
 			if (!this.isLoaded() || SoundCategoryHelper.getEffectiveVolume(SoundCategory.MUSIC, this.options) == 0.0F) {
